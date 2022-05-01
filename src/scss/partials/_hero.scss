@@ -2,14 +2,14 @@
 
 .hero {
   min-height: 100vh;
-  background-image: url("../../../images/bg-mobile.svg");
+  background-image: url("/images/bg-mobile.svg");
   background-color: $violet;
   background-repeat: no-repeat;
   background-position: 0% -20%;
   background-size: contain;
 
   @include breakpoint-up(large) {
-    background-image: url("../../../images/bg-desktop.svg");
+    background-image: url("/images/bg-desktop.svg");
     background-size: cover;
     background-position: 0% 90%;
   }
